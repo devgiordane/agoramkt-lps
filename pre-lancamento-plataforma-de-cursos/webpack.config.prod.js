@@ -23,6 +23,7 @@ module.exports = merge(common, {
         { from: 'site.webmanifest', to: 'site.webmanifest' },
         { from: 'cover.jpg', to: 'cover.jpg' },
         { from: 'thiago.png', to: 'thiago.png' },
+        { from: 'cavalo.png', to: 'cavalo.png' },
       ],
     }),
   ],

@@ -734,7 +734,7 @@
     const btn = document.getElementById('submitBtn');
     btn.classList.add('loading');
 
-    const url = `https://webhook.sellflux.app/v2/webhook/641a1c3b718775d6332bd79b2ecd215b`
+    const url = `https://webhook.sellflux.app/v2/webhook/custom/641a1c3b718775d6332bd79b2ecd215b`
               + `?name=${encodeURIComponent(nome)}&phone=${encodeURIComponent(phone)}`;
 
     try { await fetch(url, { method: 'POST', mode: 'no-cors' }); } catch (_) {}
